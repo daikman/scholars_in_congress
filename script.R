@@ -19,7 +19,7 @@ ggplot(soc_sci_cong, aes(x = year + 0.5, y = perc_discipline_year, fill = Discip
   scale_y_continuous(breaks = seq(0, 100, 10), minor_breaks = seq(0, 100, 2)) +
   scale_x_continuous(breaks = seq(1946, 2016, 5), minor_breaks = seq(1946, 2017, 1)) +
   labs(
-    title = "Expert testimonies in Congress by field",
+    title = "Social scientists' expert testimonies in Congress",
     subtitle = "As a percentage of total expert testimonies in Congress each year",
     x = "Year",
     y = "Percentage of expert testimonies in Congress",
@@ -48,7 +48,7 @@ ggplot(soc_sci_cong, aes(x = year + 0.5, y = displine_per_year_count, fill = Dis
   scale_y_continuous(breaks = seq(0, 500, 50), minor_breaks = seq(0, 500, 10)) +
   scale_x_continuous(breaks = seq(1946, 2016, 5), minor_breaks = seq(1946, 2017, 1)) +
   labs(
-    title = "Experts testimonies in Congress by field",
+    title = "Social scientists' expert testimonies in Congress",
     x = "Year",
     y = "Number of expert testimonies in Congress",
     caption = "Visualisation: David Aikman @ResearchingDave, Data Source: Charles Seguin, Thomas V. Maher, Yongjun Zhang (https://osf.io/e3h98/)"
